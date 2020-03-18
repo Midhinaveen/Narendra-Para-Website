@@ -34,6 +34,7 @@ function getData(data) {
        cardDiv.classList.add('card')
        cardDiv.classList.add('col-md-4')
        cardDiv.classList.add('mr-3')
+       cardDiv.classList.add('mt-5')
        cardDiv.classList.add('mb-4')
        let cardBodyDiv = document.createElement('div')
        cardBodyDiv.classList.add('card-body')
