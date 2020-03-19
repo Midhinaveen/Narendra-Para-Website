@@ -445,7 +445,9 @@
     margin-bottom: 40px;
   }
   .cnt1{
-       margin-top:80px ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .nav-link {
     font-size: 15px;
@@ -769,6 +771,21 @@
   
   .banner1 {
     background: url("./images/Desktop.jpg") bottom no-repeat;
+    background-size: cover;
+  }
+
+  .banner2 {
+    background: url("./images/ab1.png") bottom no-repeat;
+    background-size: cover;
+  }
+
+  .banner3 {
+    background: url("./images/ab2.png") bottom no-repeat;
+    background-size: cover;
+  }
+
+  .banner4 {
+    background: url("./images/ab3.png") bottom no-repeat;
     background-size: cover;
   }
   
