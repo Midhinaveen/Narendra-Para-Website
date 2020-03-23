@@ -131,6 +131,7 @@
     .dropdown-menu .dropdown-item{
         color: #428bca;
         font-weight: 500;
+         background-color: white;
     }
     /* Header ends */
     
@@ -359,7 +360,7 @@
   /* header */
   .navbar-light .navbar-brand {
     font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     font-weight: 800;
     font-size: 0.7em;
     letter-spacing: 1px;
@@ -413,7 +414,7 @@
   
   .navbar-light .navbar-nav .nav-link {
     font-weight: 800;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     color: #fff;
     transition: 0.5s all ease;
     font-size: 14px;
@@ -456,7 +457,7 @@
     background: transparent;
     border: none;
     text-align: center;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     position: relative;
     overflow: hidden;
     transition: 0.5s all;
@@ -511,9 +512,10 @@
   
   .dropdown-item:hover,
   .dropdown-item:focus {
-    color: #16181b;
+    color: whitesmoke;
     text-decoration: none;
     background-color: transparent;
+    background-color: whitesmoke;
   }
   
   .w3ls-btn {
@@ -549,7 +551,7 @@
     font-size: 13px;
     word-spacing: 1px;
     margin-top: 10px;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
   }
   
   p.child_second {
@@ -561,7 +563,7 @@
     font-size: 2em;
     font-weight: 600;
     color: #000;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
   }
   
   .w3_pvt-contact-top h2 {
@@ -622,7 +624,7 @@
     border: none;
     color: #fff;
     font-size: 1em;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     font-weight: 600;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
@@ -630,7 +632,7 @@
   }
   
   .col-form-label {
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     font-weight: 600;
     color: #000;
     font-size: 13px;
@@ -678,7 +680,7 @@
   .home-slide {
     font-size: 4em;
     font-weight: 700;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     color: #fff;
     word-spacing: 5px;
     letter-spacing: 1px;
@@ -687,7 +689,7 @@
   .home-slide1 {
     font-size: 1.5em;
     font-weight: 300;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     color: #fff;
     word-spacing: 3px;
     letter-spacing: 1px;
@@ -821,7 +823,7 @@
   .about-slide {
     font-size: 2em;
     font-weight: 600;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     color: #fff;
     word-spacing: 5px;
     letter-spacing: 1px;
@@ -832,7 +834,7 @@
   .mslider-info span.line {
     font-size: 1em;
     color: #fff;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     letter-spacing: 2px;
     word-spacing: 6px;
     margin-bottom: 15px;
@@ -1613,7 +1615,7 @@
   
   ul.list-w3_pvtits li a {
     color: #333;
-    text-transform: uppercase;
+     /* text-transform: uppercase; */
     font-weight: 600;
     font-size: 14px;
   }
