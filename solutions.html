@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./industries.css">
     <link rel="stylesheet" href="./contactUs.css">
     <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
 </head>
 <body>
     <div>
@@ -70,9 +73,10 @@
                                 <h3 class="abt-text text-sm-center home-slide">Systems & solutions</h3>
                                 <span class="line"></span>
                                 <p class="home-slide1">we can store and retrive data from SAP</p>
-                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll" data-blast="bgColor"
-                                    href="#about" role="button">View
-                                    More</a>
+                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -95,9 +99,9 @@
                                 processes in place and any improvements can be added please drop a message to us.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -124,9 +128,9 @@
                                  Our O2C process experts at ERPTREE technologies can support you through automate the O2C processes.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -145,9 +149,9 @@
                             <p class="home-slide1" >SAP has different P2P proceed for goods, services and purchasing agreements in place with vendors. It is critical for organizations to have DoA in place and commitment approvals (PR, PO's) in first place and subsequent controls and validations in the processes (GR,IR & Payment) to make sure no double payments are made. Our P2P process experts at ERPTREE technologies can help you to streamline your P2P processes.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -171,9 +175,9 @@
                             <p class="home-slide1" >SAP  RE-FX solutions for property management and leasing are well integrated with FICO and other logistics modules in ECC and S4 HANA systems and it is IFRS 16 compliant. Right from enterprise structures , master data objects , processes and reporting are aligned for business requirement.  Our RE-FX process experts at ERPTREE technologies are up to task to assist you through implementations or further improvements. </p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -192,9 +196,9 @@
                             <p class="home-slide1" >SAP Demand planning is flexible and most powerful tool which integrates logistics modules with SAP APO and other systems such BI & SAP VMI (vendor managed inventory) are critical to supply chain , sales and operations planning functions which are key parameters in deciding Inventory lead times and turn over ratio and effective working capital management. Our D2W process experts at ERPTREE technologies are up to task to get you there.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -218,9 +222,9 @@
                             <p class="home-slide1" >Real time data reporting and analysis is critical info for commercial teams to make right decision making at right time. HANA supported SAP business warehouse and objects will empower your business with strategic, operational and financial view. Our R&A process experts at ERPTREE technologies are up to task to get you there</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -241,9 +245,9 @@
                             <p class="home-slide1" >Data collection, cleansing,validation,migration and reconciliation of migrated data are critical part of any IT projects. Historically, data migration (ETL) has been one of key reasons for many failed IT projects. At ERPTREE our expert data migration team will support you through data collection templates, validation tool and migration loads.</p>  
                              <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -267,9 +271,9 @@
                             <p class="home-slide1" >Adopting to Generally accepted accounting principles (Country specific GAAP , IFRS , US GAAP)  is mandatory for most of the business depending on trading jurisdiction, presence in multi nations (MNC's). The more accounting deviations (Non compliance) from adopted rules would lead to more scrutiny by auditors and tax authorities. Our IFRS expert team is happy to assess and guide you through  to clear non compliance items.</p>
                              <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -287,6 +291,78 @@
                 
         </footer>
     </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Arrange a Demo</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <section class="contact-wthree py-sm-5 py-4" id="contact">
+                    <div class="container pt-lg-5">
+                      <div class="title-desc text-center pb-sm-3">
+                        <h3 class="main-title-w3pvt">contact us</h3>
+                        <p></p>
+                      </div>
+                      <div class="row mt-4">
+                    
+                        <div class="col-lg-12">
+                          <h5 class="cont-form" data-blast="color">contact form</h5>
+                          <div class="contact-form-wthreelayouts">
+                            <form id="contactForm" class="register-wthree">
+                              <div class="form-group">
+                                <label>
+                                  Your Name
+                                </label>
+                                <input class="form-control" type="text" placeholder="Enter Name" id="name" required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Mobile
+                                </label>
+                                <input class="form-control" type="text" placeholder="Enter your mail" id="email"  required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Number
+                                </label>
+                                <input class="form-control" type="text" placeholder="Ph number"  id="number" required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Your message
+                                </label>
+                                <textarea placeholder="Type your message here" type="text"  id="message" class="form-control"></textarea>
+                              </div>
+                              <div class="form-group mb-0">
+                                <button class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                  type="submit"> Send </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <script src="./modal.js"></script>
+
 </body>
 
 </html>

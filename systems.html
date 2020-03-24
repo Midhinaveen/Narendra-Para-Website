@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./industries.css">
     <link rel="stylesheet" href="./contactUs.css">
     <link rel="stylesheet" href="./main.css">
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
 </head>
 <body>
     <div>
@@ -90,9 +93,9 @@
                             <p class="home-slide1" >SAP has come up with nextGen ERP S/4 Hana with a plan to end support for ECC by 2025 but it realizes that practically impossible for all 100K + customers migrating to S/4 HANA in mere 5 years time therefore support for ECC is extended till 2030. At ERPTREE we are happy to support any customer with ECC improvements while still you are assessing S4 HANA migration.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -119,9 +122,9 @@
                                  Our O2C process experts at ERPTREE technologies can support you through automate the O2C processes.</p>
                             <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -139,8 +142,8 @@
                         <div class="container py-sm-4 py-3">
                             <p class="home-slide1" >13,000 + customers successfully migrated/implemented S/4 HANA during last 5 years and count keep moving rapidly. Don’t be behind technological advancement which is key factor in the current competitive market. </p>
                                    <div class="d-sm-flex" style="margin-top: 20%">
-                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
+                                    <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                    href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
                                     us
                                 </a>
                             </div>
@@ -165,8 +168,8 @@
                         <div class="container py-sm-4 py-3">
                             <p class="home-slide1" >Taking advantage of technological improvements, SAP has developed in memory database to solve traditional data storage & reporting issues. This will reduce data redundancy and improve reporting & performance.</p>
                                    <div class="d-sm-flex" style="margin-top: 20%">
-                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
+                                    <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                    href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
                                     us
                                 </a>
                             </div>
@@ -189,10 +192,14 @@
                         <div class="container py-sm-4 py-3">
                             <p class="home-slide1" >Success factor is cloud based human resource management software available as service (SaaS) and integrates with on premises ERP systems, which mean quicker implementation & adaptation timelines at lesser cost.</p>
                                 <div class="d-sm-flex" style="margin-top: 20%">
-                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
+                                 
+                                      
+
+                                    <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                    href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
                                     us
                                 </a>
+
                             </div>
                         </div>
                     </div>
@@ -216,8 +223,8 @@
                         <div class="container py-sm-4 py-3">
                             <p class="home-slide1" >Growing business needs for multiple systems from different vendors needs system integration tools to seamless data flow.</p>
                                   <div class="d-sm-flex" style="margin-top: 20%">
-                                <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
+                                    <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                    href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
                                     us
                                 </a>
                             </div>
@@ -239,9 +246,9 @@
                             <p class="home-slide1" >Adopting to Generally accepted accounting principles (Country specific GAAP , IFRS , US GAAP)  is mandatory for most of the business depending on trading jurisdiction, presence in multi nations (MNC's). The more accounting deviations (Non compliance) from adopted rules would lead to more scrutiny by auditors and tax authorities. Our IFRS expert team is happy to assess and guide you through  to clear non compliance items.</p>
                              <div class="d-sm-flex" style="margin-top: 20%">
                                 <a class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
-                                    href="#contact" role="button">contact
-                                    us
-                                </a>
+                                href="#contact" data-toggle="modal" data-target="#myModal" role="button">contact
+                                us
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -261,6 +268,78 @@
                 
         </footer>
     </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Arrange a Demo</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <section class="contact-wthree py-sm-5 py-4" id="contact">
+                    <div class="container pt-lg-5">
+                      <div class="title-desc text-center pb-sm-3">
+                        <h3 class="main-title-w3pvt">contact us</h3>
+                        <p></p>
+                      </div>
+                      <div class="row mt-4">
+                    
+                        <div class="col-lg-12">
+                          <h5 class="cont-form" data-blast="color">contact form</h5>
+                          <div class="contact-form-wthreelayouts">
+                            <form id="contactForm" class="register-wthree">
+                              <div class="form-group">
+                                <label>
+                                  Your Name
+                                </label>
+                                <input class="form-control" type="text" placeholder="Enter Name" id="name" required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Mobile
+                                </label>
+                                <input class="form-control" type="text" placeholder="Enter your mail" id="email"  required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Number
+                                </label>
+                                <input class="form-control" type="text" placeholder="Ph number"  id="number" required="" />
+                              </div>
+                              <div class="form-group">
+                                <label>
+                                  Your message
+                                </label>
+                                <textarea placeholder="Type your message here" type="text"  id="message" class="form-control"></textarea>
+                              </div>
+                              <div class="form-group mb-0">
+                                <button class="btn btn-primary btn-pop text-black mt-4 w3_pvt-link-bnr scroll bg-theme1"
+                                  type="submit"> Send </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <script src="./modal.js"></script>
+
 </body>
 
 </html>
